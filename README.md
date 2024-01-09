@@ -1,4 +1,4 @@
-# StackIt Hiring Assignment
+# StackIt Hiring Assignment (Frontend Engineer)
 
 ### Welcome to StackIt's hiring assignment! 🚀
 
