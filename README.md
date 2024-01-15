@@ -11,7 +11,7 @@ We are glad to have you here, but before you read what you're going to beat your
 - We love out of the box solutions. We prefer to call it *Jugaad* 
 - This might be just the first round, but carries the most importance of all. Give your best, and we hope you have a fun time solving this problem.
 
-## ✨ **Problem Statement: Crafting a CSV Interceptor for Google Sheets** ✨
+## ✨ **Problem Statement: Crafting a Dashboard Builder for Google Sheets** ✨
 
 **Context**:
 Analysts worldwide 🌍 are constantly juggling massive amounts of data to extract meaningful insights for their organizations 📊. However, they often find themselves bogged down by the tedious process of manually creating reports. Imagine an analyst at a financial firm 🏦, who needs to keep a close eye on stock market trends, like NIFTY50. Their week involves sifting through heaps of data, creating visualizations, and preparing reports for stakeholder meetings. Unfortunately, much of their time is consumed in just setting up these reports, which hampers productivity and delays insights 😫.
