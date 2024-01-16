@@ -11,25 +11,24 @@ We are glad to have you here, but before you read what you're going to beat your
 - We love out of the box solutions. We prefer to call it *Jugaad* 
 - This might be just the first round, but carries the most importance of all. Give your best, and we hope you have a fun time solving this problem.
 
-## ✨ **Problem Statement: Crafting a Dashboard Builder for Google Sheets** ✨
+## ✨ **Problem Statement: Crafting a LIVE Report Builder for Google Sheets** ✨
 
 **Context**:
-Analysts worldwide 🌍 are constantly juggling massive amounts of data to extract meaningful insights for their organizations 📊. However, they often find themselves bogged down by the tedious process of manually creating reports. Imagine an analyst at a financial firm 🏦, who needs to keep a close eye on stock market trends, like NIFTY50. Their week involves sifting through heaps of data, creating visualizations, and preparing reports for stakeholder meetings. Unfortunately, much of their time is consumed in just setting up these reports, which hampers productivity and delays insights 😫.
+Analysts worldwide 🌍 are constantly juggling massive amounts of data to extract meaningful insights for their organizations 📊. However, they often find themselves bogged down by the tedious process of manually creating reports. Imagine you are a data analyst at the Gov of India 🏦, who needs to keep a close eye on the changing air pollution trends in different cities. Their week involves sifting through heaps of data, creating visualizations, and preparing reports for taking very critical decisions. Unfortunately, much of their time is consumed in just setting up these reports, which hampers productivity and delays insights 😫.
 
 **Today, you are going to make their lives better.**
 
 **Problem Statement**:
-Create a webapp which is a Live Report Builder. It connects to any one live data source and allows analysts to easily construct customizable reports with various UI components. 
+Create a Webapp which is a Live Report Builder. It connects to any one live data source and allows analysts to easily construct customizable reports with various UI components. 
 Here’s what you need to build:
-1. Live Data Source Connection: Pick any api which provides live data. For simplicity you can pick an api that provides live NIFTY50 value. This data source is the input data for your report builder.
-2. Implement a user interface that provides a split screen experience, each part having a core use case. <br>
-   a. The first part allows user to select columns of the data source or sliced data or any other derivation of the data source that you need to begin with. <br>
-   b. The second part is where you configure the visualisations. Support only 3 types of visualisations – Summary (Sum/average/median of values), Tabular data (sliced view of the data) and Charts (Bar or line graph). 
-3. User can have multiple visualisations in the report along with text data.
+1. Live Data Source Connection: Pick any api which provides live data. For simplicity you can pick the OpenWeatherMap APIs that provide you live Air Pollution data. This data source will be the input data for your report builder. More info here: https://openweathermap.org/api/air-pollution
+2. Implement a USER INTERFACE that provides an experience to BUILD OUT A REPORT, each part having a core use case. <br>
+   a. THE KNOBS TO BUILD A REPORT: The first part allows user to select the data source or sliced data or any other derivation of the data source that you need to begin with. It also includes the visualisations that the user can finally add to the report. For the simplicity of the implementation, support only 3 types of visualisations – Any summary data (Eg. The worst SO2 value in the last 30 days ), Tabular data (Eg. sliced data view of O3 trends in the last 2 weeks) and Charts (Bar or line graph - plot trends of CO levels week on week).<br>
+   b. THE PREVIEW OF THE REPORT: The second part is where you visualise how the report is being build and generated.  
+3. User can have multiple visualisations in the report along with any message they wish to add in the report.
 4. Allow the user to set how frequently the data in the report should be updated from the apis.
 
 ![Dashboard](https://github.com/StackItHQ/Hiring-Assignment-Frontend/blob/main/dashboard-eg.jpg?raw=true)
-<i> A very advanced kind of dashboard. Your implementation need not be this complete. </i>
 
 You get brownie points 🍪 if you implement any innovative feature or components that enhance the tool's functionality. Your solution should not just be functional but also aesthetically appealing.
 
